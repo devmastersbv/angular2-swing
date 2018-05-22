@@ -167,6 +167,8 @@ export interface StackConfig {
    * @return {undefined}
    */
   transform?: (element: HTMLElement, x: number, y: number, r: number) => void;
+
+  allowTouchScrollMovement: () => boolean;
 }
 
 export enum Direction {
